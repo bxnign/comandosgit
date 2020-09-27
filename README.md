@@ -1,12 +1,14 @@
 # comandosgit
 
 ------------------configuracones globales------------------
+
 bajo que informacion se va a subir cada commit que hagamos
 
 	git config --global user.name "nombre"  (configuramos el nombre)
 	git config --global user.email-"email" (configuramos el email)
 	
 ------------------comandos basicos para utilizar git------------------
+
 iniciamos el repositorio local y le decimos a un proyecto que en us carpeta principal existira control de versiones	
 
 	git init
@@ -30,6 +32,7 @@ agregar todo al repositorio de github, podemos usar otro branch no necesariament
 en caso de no haber iniciado sesion anteriormente se abrira una ventana para iniciar sesion en la cuenta de github
 
 ------------------cambiar y crear nuevos branch------------------
+
 estos comandos funcionan bastante para el control de versiones,  puesto que cada branch tendra sus commit propio pero del mismo repositorio, asi se pueden hacer cambios sin afectar cambios anteriores de otros commit
 
 	git branch (te lista los branch que exiten)
