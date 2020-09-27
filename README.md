@@ -12,6 +12,7 @@ git add . (AGREGAMOS TODOS LOS CAMBIOS QUE QUEREMOS SUBIR A EL REPOSITORIO LOCAL
 git commit -m "comentario" (generamos comentarios commit a las versiones que vayamos agregando al repositorio local)
 git remote add origin "url del repositorio" (le indicamos a que repositorio queremos agregarlo)
 git push origin master (agregar todo al repositorio de github, podemos usar otro branch no necesariamente el por defecto (master))
+
 -- en caso de no haber iniciado sesion anteriormente se abrira una ventana para iniciar sesion en la cuenta de github--
 
 
